@@ -24,12 +24,14 @@
 #### 从源码编译
 
 1. 创建目录 /home/go/livego2/src/github.com/gwuhaolin/
-        export GOPATH=/home/go/livego2
-2. 在gwuhaolin目录下，下载源码 `git clone https://github.com/please88/livego.git`
-        go get github.com/satori/go.uuid
-        go get github.com/orcaman/concurrent-map
+- export GOPATH=/home/go/livego2
+2. 在gwuhaolin目录下，下载源码 
+- git clone https://github.com/please88/livego.git
+- go get github.com/satori/go.uuid
+- go get github.com/orcaman/concurrent-map
         
-3. 去 livego 目录中 执行 `go build`
+3. 去 livego 目录中 执行 
+- go build
 
 ## 使用
 2. 启动服务：执行 `livego` 二进制文件启动 livego 服务；
